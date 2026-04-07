@@ -14,3 +14,8 @@ fi
 
 # exercise: write a script that prints whether today is
 # the weekend or not
+if [ "$answer" = "yes" ]; then
+   echo "hmmmm gooood enjoy your weekend"
+else
+   echo "the weekend is coming soon enough c:"
+fi
